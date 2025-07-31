@@ -17,8 +17,6 @@ from passlib.context import CryptContext
 
 from typing import Annotated
 
-from jwt.exceptions import InvalidTokenError
-
 from .schema import TokenData
 
 
@@ -80,7 +78,7 @@ async def get_current_user(token: Annotated[str, Depends(oauth2_scheme)]):
         if username is None:
             raise credentials_exception
         token_data = TokenData(username=username)
-    except InvalidTokenError:
+    except Exception as e:
         raise credentials_exception
 
     user = await get_user(username=token_data.username)
