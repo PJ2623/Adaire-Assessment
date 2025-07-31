@@ -115,6 +115,9 @@ Authorization: Bearer your_jwt_token
 | GET    | `/genre-sale-summary` | Get summary of sales by genre (auth) |
 | GET    | `/not-sold`           | Get list of unsold genres            |
 
+
+For interactive API documentation, visit: [Swagger UI](http://localhost:8000/docs)
+
 ---
 
 ## Frontend (Next.js + TailwindCSS)
