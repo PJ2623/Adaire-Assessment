@@ -1,6 +1,6 @@
 # Music Sales Dashboard
 
-A fullstack dashboard app that visualizes music sales data using **FastAPI (backend)** and **React with TailwindCSS (frontend)**. It shows which genres are selling and which aren’t, and allows authenticated access to deeper insights.
+A fullstack dashboard app that visualizes music sales data using **FastAPI (backend)** and **Next.js with TailwindCSS (frontend)**. It shows which genres are selling and which aren’t, and allows authenticated access to deeper insights.
 
 ---
 
