@@ -68,14 +68,14 @@ To access protected routes, you must authenticate first.
 
 **Login Endpoint**
 
+The endpoint does not use the password though it asks for it. As employee records do not have a password, you can use any password.
+It simply fetches th user by email and if a record is found it returns a JWT token. This done just for this demonstration.
+
 ```http
 POST /login
-Content-Type: application/json
+Content-Type: application/x-www-form-urlencoded
 
-{
-  "username": "admin",
-  "password": "admin123"
-}
+username=john.doe&email=john.doe%40example.com&password=your_password
 ```
 
 Response:
