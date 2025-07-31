@@ -31,7 +31,7 @@ Adaire-Assessment/
 To run smoothly, please run the backend server first before starting the frontend. The frontend relies on the backend API for data.
 
 Do not perform the operations below to prepare the backend and frontend from the root directory.
-Instead, open the `backend` and `frontend` directories in separate terminal windows of your code editor.
+Instead, open the `backend` and `frontend` directories in separate windows of your code editor.
 
 ---
 
