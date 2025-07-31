@@ -7,13 +7,13 @@ A fullstack dashboard app that visualizes music sales data using **FastAPI (back
 ## 📁 Project Structure
 
 ```
-music-sales-dashboard/
+Adaire-Assessment/
 │
 ├── backend/         # FastAPI app
 │   ├── main.py
-│   ├── /database/  # SQLite database
-│   │   ├── db.py
-│   │   └── ...
+│   ├── database/  # SQLite database
+│   │     ├── db.py
+│   │     └── ...
 │   └── ...
 │
 └── frontend/        # React + Tailwind dashboard
