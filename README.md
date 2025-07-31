@@ -45,8 +45,6 @@ pip install uv
 
 3. **Set up virtual environment and install dependencies**
 ```bash
-
-```bash
 uv venv # Create a virtual environment 
 uv pip compile pyproject.toml -o requirements.txt
 uv pip install -r requirements.txt
