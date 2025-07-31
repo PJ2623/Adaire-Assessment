@@ -48,6 +48,7 @@ pip install uv
 uv venv # Create a virtual environment 
 uv pip compile pyproject.toml -o requirements.txt
 uv pip install -r requirements.txt
+.venv\Scripts\activate  # Activate the virtual environment
 ```
 
 Once everything is installed, close and reopen your terminal to activate the virtual environment.
